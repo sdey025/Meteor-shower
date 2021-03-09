@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-image: radial-gradient(#2A2D60,#1B2448);
+    margin-top: 3%;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+#star1{
+    width: 4px;
+    height: 4px;
+    border: 0;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star2{
+    width: 3px;
+    height: 3px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star3{
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star4{
+    width: 4px;
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 580px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star5{
+    width: 3px;
+    height: 3px;
+    border: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 50px;
+    animation: twinkle 1s linear infinite;
+}
+#star6{
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 350px;
+    animation: twinkle 1s linear infinite;
+}
+#star7{
+    width: 3px;
+    height: 3px;
+    border: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 550px;
+    animation: twinkle 1s linear infinite;
+}
+#star8{
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 320px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star9{
+    width: 4px;
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star10{
+    width: 3px;
+    height: 3px;
+    border: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 700px;
+    animation: twinkle 1s linear infinite;
+}
+#star11{
+    width: 4px;
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 200px;
+    animation: twinkle 1s linear infinite;
+}
+#star12{
+    width: 3px;
+    height: 3px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star13{
+    width: 4px;
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 394px;
+    animation: twinkle 1s linear infinite;
+}
+#star14{
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 650px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star15{
+    width: 4px;
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star16{
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 240px;
+    animation: twinkle 1s linear infinite;
+}
+#star17{
+    width: 4px;
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 460px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star18{
+    width: 4px;
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 760px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star19{
+    width: 5px;
+    height: 5px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 260px;
+    margin-right: auto;
+    animation: twinkle 1s linear infinite;
+}
+#star20{
+    width: 3px;
+    height: 3px;
+    border: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 260px;
+    animation: twinkle 1s linear infinite;
+}
+.card-img{
+    width: 70px !important;
+    margin-left: auto;
+    margin-right: 140px;
+}
+#meteor{
+    background-image: linear-gradient(to right, rgba(251,226,223,0), rgba(222,43,9,0.7));
+    width: 200px;
+    height: 12px;
+    border-radius: 0 10px 10px 0;
+    transform: rotate(45deg);
+    position: relative;
+    top: -78px;
+    animation: shower 1.5s linear infinite;
+}
+#meteor1{
+    background-image: linear-gradient(to right, rgba(251,226,223,0), rgba(192,226,4,1));
+    width: 200px;
+    height: 12px;
+    border-radius: 0 10px 10px 0;
+    transform: rotate(45deg);
+    position: relative;
+    top: -78px;
+    left: 200px;
+    animation: shower1 2s linear 1s infinite;
+}
+#meteor2{
+    background-image: linear-gradient(to right, rgba(251,226,223,0), rgba(96,0,245,1));
+    width: 200px;
+    height: 12px;
+    border-radius: 0 10px 10px 0;
+    transform: rotate(45deg);
+    position: relative;
+    top: -78px;
+    left: 300px;
+    animation: shower2 2.5s linear 0.5s infinite;
+}
+#meteor3{
+    background-image: linear-gradient(to right, rgba(251,226,223,0), rgba(232,119,0,1));
+    width: 200px;
+    height: 12px;
+    border-radius: 0 10px 10px 0;
+    transform: rotate(45deg);
+    position: relative;
+    top: -78px;
+    left: -200px;
+    animation: shower3 2s linear 1.5s infinite;
+}
+#meteor4{
+    background-image: linear-gradient(to right, rgba(251,226,223,0), rgba(1,233,241,1));
+    width: 200px;
+    height: 12px;
+    border-radius: 0 10px 10px 0;
+    transform: rotate(45deg);
+    position: relative;
+    top: -78px;
+    left: 400px;
+    animation: shower4 2.5s linear 2s infinite;
+}
+@keyframes shower{
+    from{
+        top: -78px;
+        left: 0;
+        opacity: 1;
+    }
+    to{
+        top: 900px;
+        left: 970px;
+        opacity: -0.3;
+        width: 20px;
+    }
+}
+@keyframes shower1{
+    from{
+        top: -78px;
+        left: 200px;
+        opacity: 1;
+    }
+    to{
+        top: 900px;
+        left: 1170px;
+        opacity: -0.3;
+        width: 20px;
+    }
+}
+@keyframes shower2{
+    from{
+        top: -78px;
+        left: 400px;
+        opacity: 1;
+    }
+    to{
+        top: 900px;
+        left: 1370px;
+        opacity: -0.3;
+        width: 20px;
+    }
+}
+@keyframes shower3{
+    from{
+        top: -78px;
+        left: -200px;
+        opacity: 1;
+    }
+    to{
+        top: 900px;
+        left: 770px;
+        opacity: -0.3;
+        width: 20px;
+    }
+}
+@keyframes shower4{
+    from{
+        top: -78px;
+        left: 400px;
+        opacity: 1;
+    }
+    to{
+        top: 900px;
+        left: 1370px;
+        opacity: -0.3;
+        width: 20px;
+    }
+}
+@keyframes twinkle{
+    0%{
+        background-color: rgb(129, 129, 129);
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: white;
+    }
+    75%{
+        background-color: orange;
+    }
+    100%{
+        background-color: rgb(133, 247, 255);
+    }
+}
